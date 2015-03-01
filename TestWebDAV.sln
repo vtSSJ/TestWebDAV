@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebDAV", "TestWebDAV\TestWebDAV.csproj", "{943FD446-7F76-4348-8745-57DFC217EC43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{12689F04-DC64-499B-B413-21D1CF8397A0}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIPort.WebDAV", "..\CIPort.WebDAV\CIPort.WebDAV.csproj", "{72211240-771F-4194-9315-02DBB6871A61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sphorium.WebDAV.Server.Framework", "..\Sphorium.WebDAV.Server.Framework\Sphorium.WebDAV.Server.Framework.csproj", "{9FA99EA4-A640-4463-B3F1-A77CD0616776}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sphorium.WebDAV.Examples.FileServer.Module", "..\Sphorium.WebDAV.Examples.FileServer.Module\Sphorium.WebDAV.Examples.FileServer.Module.csproj", "{6FC03AA2-9BF0-43B4-B3E2-F49A1BD5F7BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		ReleaseBinaries|Any CPU = ReleaseBinaries|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{943FD446-7F76-4348-8745-57DFC217EC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943FD446-7F76-4348-8745-57DFC217EC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943FD446-7F76-4348-8745-57DFC217EC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943FD446-7F76-4348-8745-57DFC217EC43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943FD446-7F76-4348-8745-57DFC217EC43}.ReleaseBinaries|Any CPU.ActiveCfg = Release|Any CPU
+		{943FD446-7F76-4348-8745-57DFC217EC43}.ReleaseBinaries|Any CPU.Build.0 = Release|Any CPU
+		{72211240-771F-4194-9315-02DBB6871A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72211240-771F-4194-9315-02DBB6871A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72211240-771F-4194-9315-02DBB6871A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72211240-771F-4194-9315-02DBB6871A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72211240-771F-4194-9315-02DBB6871A61}.ReleaseBinaries|Any CPU.ActiveCfg = Release|Any CPU
+		{72211240-771F-4194-9315-02DBB6871A61}.ReleaseBinaries|Any CPU.Build.0 = Release|Any CPU
+		{9FA99EA4-A640-4463-B3F1-A77CD0616776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA99EA4-A640-4463-B3F1-A77CD0616776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA99EA4-A640-4463-B3F1-A77CD0616776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA99EA4-A640-4463-B3F1-A77CD0616776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA99EA4-A640-4463-B3F1-A77CD0616776}.ReleaseBinaries|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA99EA4-A640-4463-B3F1-A77CD0616776}.ReleaseBinaries|Any CPU.Build.0 = Release|Any CPU
+		{6FC03AA2-9BF0-43B4-B3E2-F49A1BD5F7BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC03AA2-9BF0-43B4-B3E2-F49A1BD5F7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC03AA2-9BF0-43B4-B3E2-F49A1BD5F7BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC03AA2-9BF0-43B4-B3E2-F49A1BD5F7BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FC03AA2-9BF0-43B4-B3E2-F49A1BD5F7BE}.ReleaseBinaries|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC03AA2-9BF0-43B4-B3E2-F49A1BD5F7BE}.ReleaseBinaries|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
